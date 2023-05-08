@@ -10,8 +10,6 @@ datagroup: term-deposit_default_datagroup {
 
 persist_with: term-deposit_default_datagroup
 
-explore: feature_importance {}
-
 explore: term_deposit_full {}
 
 explore: prediction {}
