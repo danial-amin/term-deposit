@@ -1,6 +1,6 @@
 view: featureimportance {
   derived_table: {
-    sql: SELECT * FROM `term-deposit-385811.TD.FeatureImportance`
+    sql: SELECT * FROM `term-deposit-385811.TD.FeatureImportance` order by importance_weight DESC
       ;;
   }
 
