@@ -13,3 +13,5 @@ persist_with: term-deposit_default_datagroup
 explore: term_deposit_full {}
 
 explore: prediction {}
+
+explore: featureimportance {}
