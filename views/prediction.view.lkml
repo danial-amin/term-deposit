@@ -5,7 +5,7 @@ view: prediction {
 
   derived_table: {
     sql:
-    SELECT * FROM ML.PREDICT(MODEL `bank-churners-385705.churn.RFmodel`,
+    SELECT * FROM ML.PREDICT(MODEL `term-deposit-385811.TD.RFmodel`,
     (SELECT {% parameter CustomerAge %} AS age,
             {% parameter TotalBalance %} AS balance,
             {% parameter TotalDuration %} AS duration));;
