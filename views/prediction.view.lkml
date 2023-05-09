@@ -12,12 +12,12 @@ view: prediction {
   }
   dimension: predict_prob {
     type: number
-    sql: ${TABLE}.predicted_y[1][1] ;;
+    sql: ${TABLE}.predicted_y_probs[1][1] ;;
   }
 
   dimension: other_prob {
     type: number
-    sql: ${TABLE}.predicted_y[0][1] ;;
+    sql: ${TABLE}.predicted_y_probs[0][1] ;;
   }
 
   dimension: age {
